@@ -18,25 +18,6 @@ import ctwhs.order.sqlite.helper.DBHelper;
 
 public class SqliteUnitTest {
 
-    //	/**
-//	 * The type of food.
-//	 */
-//	public enum Type {
-//		/** The Dessert. */
-//		Dessert,
-//		/** The Soup. */
-//		Soup,
-//		/** The Main dish. */
-//		MainDish,
-//		/** The Alcoholic drink. */
-//		Alcoholic,
-//		/** The Non alcoholic drink. */
-//		NonAlcoholic,
-//		/** The Other kind of products. */
-//		Other
-//
-//	}
-
     private Context context;
 
     public SqliteUnitTest(Context context) {
@@ -74,13 +55,6 @@ public class SqliteUnitTest {
             productTypeEntDao.addProductType(productTypeEnt);
 
             List<ProductTypeEnt> entList = productTypeEntDao.queryAll();
-
-//            ProductEnt productEnt = new ProductEnt();
-//            productEnt.setName("Mon an thu 1");
-//            productEnt.setType(productTypeEnt);
-//            productDao.addProduct(productEnt);
-//            List<ProductEnt> productEntList = productDao.queryAll();
-//            Log.i(productEntList.get(0).getName(), "");
 
         } catch (SQLException e) {
             e.printStackTrace();

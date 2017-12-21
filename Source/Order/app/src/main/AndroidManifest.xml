@@ -34,7 +34,10 @@
             android:label="@string/title_orderpayment_list"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activity.PaymentOrderActivity" />
-        <activity android:name=".activity.MasterMenuActivity"></activity>
+        <activity android:name=".activity.MasterMenuActivity">
+
+
+        </activity>
         <activity android:name=".activity.MasterFoodsListActivity"></activity>
         <activity android:name=".activity.MasterFoodsDetailActivity"></activity>
 

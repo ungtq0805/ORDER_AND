@@ -52,5 +52,6 @@
     <string name="master_foods_list_selected_product_menu_edit">Edit</string>
     <string name="master_foods_list_selected_product_menu_delete">Delete</string>
 
-
+    <!--DEFAULT VALUES-->
+    <string name="mst_common_company_desc">CTWHS Software Company</string>
 </resources>

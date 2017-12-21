@@ -51,4 +51,8 @@
     <!--Master menu selected product-->
     <string name="master_foods_list_selected_product_menu_edit">Sua</string>
     <string name="master_foods_list_selected_product_menu_delete">Xoa</string>
+
+    <!--DEFAULT VALUES-->
+    <string name="mst_common_company_desc">Công ty phần mềm CTWHS</string>
+
 </resources>

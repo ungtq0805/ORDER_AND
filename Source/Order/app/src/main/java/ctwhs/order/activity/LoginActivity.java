@@ -10,6 +10,7 @@ import ctwhs.common.utils.ConvertUtils;
 import ctwhs.order.R;
 import ctwhs.order.common.activity.ActivityHelper;
 import ctwhs.order.constant.ConstActivity;
+import ctwhs.order.controller.LoginController;
 import ctwhs.order.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
@@ -17,11 +18,15 @@ public class LoginActivity extends AppCompatActivity {
     ActivityLoginBinding loginBinding;
     Intent langIntent;
     Bundle langBundle;
+    LoginController loginController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         loginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login);
+
+        loginController = LoginController.getInstance(this);
+        loginController.onCheckDbAndCreate();
     }
 
     @Override

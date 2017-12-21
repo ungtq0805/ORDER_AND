@@ -16,7 +16,7 @@ import java.util.Date;
  * The Class OrderProduct.
  */
 @DatabaseTable(tableName = "MST_COMMON")
-public class MstCommon {
+public class MstCommonEnt {
 
 	/** The COMMON NO. */
 	@DatabaseField(columnName = "COMMON_NO")
@@ -66,7 +66,7 @@ public class MstCommon {
 	private BigDecimal dataNumber6;
 
 	@DatabaseField(columnName = "DATA_FLG")
-	private BigDecimal dataFlg;
+	private Boolean dataFlg;
 
 	@DatabaseField(columnName = "DESC")
 	private String desc;
@@ -77,7 +77,7 @@ public class MstCommon {
 	@DatabaseField(columnName = "UPDATE_DATE")
 	private Date updateDate;
 
-	public MstCommon() {
+	public MstCommonEnt() {
 		super();
 	}
 
@@ -201,11 +201,11 @@ public class MstCommon {
 		this.dataNumber6 = dataNumber6;
 	}
 
-	public BigDecimal getDataFlg() {
+	public Boolean getDataFlg() {
 		return dataFlg;
 	}
 
-	public void setDataFlg(BigDecimal dataFlg) {
+	public void setDataFlg(Boolean dataFlg) {
 		this.dataFlg = dataFlg;
 	}
 
@@ -230,6 +230,68 @@ public class MstCommon {
 	}
 
 	public void setUpdateDate(Date updateDate) {
+		this.updateDate = updateDate;
+	}
+
+	/**
+	 * set default values
+	 * @param commonNo
+	 * @param classNo
+	 * @param className
+	 * @param data1
+	 * @param data2
+	 * @param data3
+	 * @param data4
+	 * @param data5
+	 * @param data6
+	 * @param dataNumber1
+	 * @param dataNumber2
+	 * @param dataNumber3
+	 * @param dataNumber4
+	 * @param dataNumber5
+	 * @param dataNumber6
+	 * @param dataFlg
+	 * @param desc
+	 * @param insertDate
+	 * @param updateDate
+	 */
+	public void setValues(String commonNo,
+						  String classNo,
+						  String className,
+						  String data1,
+						  String data2,
+						  String data3,
+						  String data4,
+						  String data5,
+						  String data6,
+						  BigDecimal dataNumber1,
+						  BigDecimal dataNumber2,
+						  BigDecimal dataNumber3,
+						  BigDecimal dataNumber4,
+						  BigDecimal dataNumber5,
+						  BigDecimal dataNumber6,
+						  Boolean dataFlg,
+						  String desc,
+						  Date insertDate,
+						  Date updateDate) {
+		this.commonNo = commonNo;
+		this.classNo = classNo;
+		this.className = className;
+		this.data1 = data1;
+		this.data2 = data2;
+		this.data3 = data3;
+		this.data4 = data4;
+		this.data5 = data5;
+		this.data6 = data6;
+		this.dataNumber1 = dataNumber1;
+		this.dataNumber2 = dataNumber2;
+		this.dataNumber3 = dataNumber3;
+		this.dataNumber4 = dataNumber4;
+		this.dataNumber5 = dataNumber5;
+		this.dataNumber6 = dataNumber6;
+		this.dataFlg = dataFlg;
+		this.desc = desc;
+		this.insertDate = insertDate;
 		this.updateDate = updateDate;
 	}
 }

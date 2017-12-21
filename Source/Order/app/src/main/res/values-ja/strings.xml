@@ -52,4 +52,6 @@
     <string name="master_foods_list_selected_product_menu_edit">修正</string>
     <string name="master_foods_list_selected_product_menu_delete">削除</string>
 
+    <!--DEFAULT VALUES-->
+    <string name="mst_common_company_desc">CTWHSの会社ソフト</string>
 </resources>

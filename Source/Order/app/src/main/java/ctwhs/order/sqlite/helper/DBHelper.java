@@ -11,6 +11,8 @@ import com.j256.ormlite.table.TableUtils;
 
 import java.io.File;
 
+import ctwhs.order.entity.MstCommonEnt;
+import ctwhs.order.entity.MstUserEnt;
 import ctwhs.order.entity.OrderDetailEnt;
 import ctwhs.order.entity.OrderEnt;
 import ctwhs.order.entity.ProductEnt;
@@ -23,43 +25,27 @@ import ctwhs.order.entity.TableOrderEnt;
  */
 
 public class DBHelper extends OrmLiteSqliteOpenHelper {
-    // Fields
-
-//    public static final String DB_NAME = "order_manager.db";
-//    private static final int DB_VERSION = 1;
-//
-//    // Public methods
-//
-//    public DBHelper(Context context) {
-//        super(context, DB_NAME, null, DB_VERSION);
-//        getWritableDatabase();
-//    }
-//
-//    @Override
-//    public void onCreate(SQLiteDatabase db, ConnectionSource cs) {
-//        try {
-//
-//            // Create Table with given table name with columnName
-//            TableUtils.createTable(cs, ProductTypeEnt.class);
-//
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        } catch (java.sql.SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
-//
-//    @Override
-//    public void onUpgrade(SQLiteDatabase db, ConnectionSource cs, int oldVersion, int newVersion) {
-//
-//    }
 
     // name of the database file for your application -- change to something appropriate for your app
-    public static final String DATABASE_NAME = "helloAndroid.db";
+    public static final String DATABASE_NAME = "OrderDb.db";
+
     // any time you make changes to your database objects, you may have to increase the database version
     private static final int DATABASE_VERSION = 1;
 
 
+    private static DBHelper instance = null;
+
+    /**
+     * get instance with singleton
+     * @param context
+     * @return
+     */
+    public static DBHelper getInstance(Context context) {
+        if(instance == null) {
+            instance = new DBHelper(context);
+        }
+        return instance;
+    }
 
     public DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -79,6 +65,8 @@ public class DBHelper extends OrmLiteSqliteOpenHelper {
             TableUtils.createTable(connectionSource, OrderEnt.class);
             TableUtils.createTable(connectionSource, TableOrderEnt.class);
             TableUtils.createTable(connectionSource, TableEnt.class);
+            TableUtils.createTable(connectionSource, MstCommonEnt.class);
+            TableUtils.createTable(connectionSource, MstUserEnt.class);
 
         } catch (SQLException e) {
             Log.e(DBHelper.class.getName(), "Can't create database", e);
