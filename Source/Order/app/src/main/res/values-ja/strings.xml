@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">予約システム</string>
+    <string name="txt_advertisement">予約システムのWELCOME</string>
+    <string name="btn_form_login">ログインの画面へ</string>
+    <string name="txt_user_name">ユーザー</string>
+    <string name="txt_password">パスワード</string>
+    <string name="btn_login">ログイン</string>
+    <string name="txt_view_register">登録</string>
+    <string name="txt_view_recovery">パスワードを復元する</string>
+    <string name="order_title">受注</string>
+    <string name="order_total_amount">全部</string>
+    <string name="order_total_order">全部の受注</string>
+
+    <!--Message for form login-->
+    <string name="err_input_username">ユーザー名を入力してください</string>
+    <string name="err_input_password">スワードを入力してください</string>
+
+    <!--Message for form main menu-->
+    <string name="txt_view_quantity">数量</string>
+    <string name="txt_view_table_order">テブル番号</string>
+    <string name="main_menu_btn_history_title">歴史</string>
+    <string name="main_menu_btn_table_title">テーブル</string>
+
+    <!--Message for form table order-->
+    <string name="table_order_btn_add_order">追加受注</string>
+    <string name="table_order_btn_payment">勘定</string>
+    <string name="table_order_btn_cancel_all">受注のキャンセル</string>
+    <string name="table_order_dialog_confirm_cancel_all_title">確認</string>
+    <string name="table_order_dialog_confirm_cancel_all_message">受注の全部を削除でしょうか？</string>
+    <string name="table_order_dialog_confirm_cancel_all_ok">はい</string>
+    <string name="table_order_dialog_confirm_cancel_all_cancel">いいえ</string>
+    <string name="table_order_msg_add_new_order">受注のテーブルを作成しました。</string>
+    <string name="title_orderpayment_list">受注と支払い</string>
+
+    <!--Message for form payment parent-->
+    <string name="order_payment_list_total_payment_title">全部</string>
+
+    <!--Message for form master menu - food - product-->
+    <string name="master_menu_title">メニューマスター</string>
+    <string name="master_menu_product_name_hint">製品名を入力してください</string>
+    <string name="master_menu_product_name_jp_hint">製品名の日本語で入力してください。</string>
+    <string name="master_menu_product_name_title">英語名</string>
+    <string name="master_menu_product_name_jp_title">日本語名</string>
+    <string name="master_menu_product_type_name_title">区分</string>
+    <string name="master_menu_product_btn_reg">登録</string>
+    <string name="master_menu_product_price_title">物価</string>
+    <string name="master_menu_list_product_btn_add">製品追加</string>
+    <string name="master_menu_product_btn_del">削除</string>
+    <string name="master_menu_product_confirm_del_product">この製品が削除しているでしょうか？</string>
+
+    <!--Master menu selected product-->
+    <string name="master_foods_list_selected_product_menu_edit">修正</string>
+    <string name="master_foods_list_selected_product_menu_delete">削除</string>
+
+</resources>

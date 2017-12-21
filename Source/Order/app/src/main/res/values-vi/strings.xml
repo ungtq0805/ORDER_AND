@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Hệ thống đặt hàng</string>
+    <string name="txt_advertisement">Chao mung den voi he thong dat hang tren ANDROID</string>
+    <string name="btn_form_login">Vào trang login</string>
+    <string name="txt_user_name">Tên Đăng Nhập</string>
+    <string name="txt_password">Mật Khẩu</string>
+    <string name="btn_login">Đăng Nhập</string>
+    <string name="txt_view_register">Đăng ký tại đây</string>
+    <string name="txt_view_recovery">Phục hồi mật khẩu</string>
+    <string name="order_title">Đặt hàng</string>
+    <string name="order_total_amount">Tổng cộng</string>
+    <string name="order_total_order">Đơn giá đơn hàng</string>
+
+    <!--Message for form login-->
+    <string name="err_input_username">Hãy nhập tên của bạn</string>
+    <string name="err_input_password">Hãy nhập mật khẩu của bạn</string>
+
+    <!--Message for form main menu-->
+    <string name="txt_view_quantity">Số lượng</string>
+    <string name="txt_view_table_order">Bàn số</string>
+    <string name="main_menu_btn_history_title">Lịch sử</string>
+    <string name="main_menu_btn_table_title">Bàn</string>
+
+    <!--Message for form table order-->
+    <string name="table_order_btn_add_order">Thêm đơn hàng</string>
+    <string name="table_order_btn_payment">Thanh Toán</string>
+    <string name="table_order_btn_cancel_all">Huỷ toàn bộ</string>
+    <string name="table_order_dialog_confirm_cancel_all_title">Xác <nhận></nhận></string>
+    <string name="table_order_dialog_confirm_cancel_all_message">Bạn có chắc muốn xoá toàn bộ đơn hàng?</string>
+    <string name="table_order_dialog_confirm_cancel_all_ok">Đồng ý</string>
+    <string name="table_order_dialog_confirm_cancel_all_cancel">Không</string>
+    <string name="table_order_msg_add_new_order">Đã tạo đơn hàng cho bàn này</string>
+    <string name="title_orderpayment_list">Chi tiet thanh toan</string>
+
+    <!--Message for form payment parent-->
+    <string name="order_payment_list_total_payment_title">Tong so tien thanh toan</string>
+
+    <!--Message for form master menu - food - product-->
+    <string name="master_menu_title">Danh sach master</string>
+    <string name="master_menu_product_name_hint">Vui long nhap ten san pham</string>
+    <string name="master_menu_product_name_jp_hint">Vui long nhap ten san pham bang tieng Nhat</string>
+    <string name="master_menu_product_name_title">Ten</string>
+    <string name="master_menu_product_name_jp_title">Ten tieng Nhat</string>
+    <string name="master_menu_product_type_name_title">Loai</string>
+    <string name="master_menu_product_btn_reg">Dang ky</string>
+    <string name="master_menu_product_price_title">Gia</string>
+    <string name="master_menu_list_product_btn_add">Them san pham</string>
+    <string name="master_menu_product_btn_del">Xoa</string>
+    <string name="master_menu_product_confirm_del_product">Ban co muon xoa san pham nay khong?</string>
+
+    <!--Master menu selected product-->
+    <string name="master_foods_list_selected_product_menu_edit">Sua</string>
+    <string name="master_foods_list_selected_product_menu_delete">Xoa</string>
+</resources>

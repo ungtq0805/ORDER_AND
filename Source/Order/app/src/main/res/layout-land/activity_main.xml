@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_login_1200">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/txt_advertisement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1.00"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:text="@string/btn_form_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_size"
+                android:id="@+id/btnFormLogin"
+                android:background="@drawable/background_button"
+                android:drawableRight="@drawable/login"
+                android:layout_weight="1.00"
+                android:onClick="openFormLogin"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:textSize="@dimen/text_size"
+                    android:id="@+id/btnVn"
+                    android:background="@drawable/ic_vietnam"
+                    android:onClick="onClickVn"
+                    />
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="@dimen/text_size"
+                    android:id="@+id/btnJp"
+                    android:background="@drawable/ic_japan"
+                    android:onClick="onClickJp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

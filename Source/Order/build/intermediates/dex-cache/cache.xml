@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-10.0.1_4d8f6bedfc087cd16f296cc8ba9786b5d3b9d942.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\UNGTQ\.gradle\caches\modules-2\files-2.1\com.android.databinding\baseLibrary\2.2.3\b4b51d1925cdfda98fd861230c1ecb5855500129\baseLibrary-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\baseLibrary-2.2.3_8e466865af448fa081e4f871e46fa82fd0fc0e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.0_61dfdfb2bd01927d1929aa04d3a7efe802ca8bc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-10.0.1_058405cc12549935f603dee72f0cab84873b965c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_ec13d4e3aceb44953435bff250d4df3a0056d469.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\UNGTQ\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_b24e533c5458aa38df8b8791b818936384fed0c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-10.0.1_d48e84cae16dabfee256ddb66cfad9aee5ac41c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\UNGTQ\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\ormlite-android-4.48_fcbbe302fc6fc4724169773c0018ac69c6cd9411.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_9152f612e7df30fc59a456b48a8b78b03636a478.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.0_944ef42cd879472cc3c3f66ecc12257962ace221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\libs\google-api-translate-java-0.97.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="220e4c3eb792e8c50e21add2874cd1a66844ce6f">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\google-api-translate-java-0.97_dd48aab159d06aa6d513e29f31ef06250c751d75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\UNGTQ\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.48\e579bd2905d0399af5029aaaf9817d5fa0ca88a5\ormlite-core-4.48.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\ormlite-core-4.48_e4347d9181772d0367ab7d1890ff5476cadb149e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-10.0.1_a351a7c56bcae9b770a863fba1590e1c2d5e79fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.0_cf43f25094f08f54e509730c4d436a9ce1e6b1cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.0_fb230ece45409205cb3ffc6062a8c1ddfc037992.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_1e4a16d4c8704ee46526b64e1a288f198f58b02b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_05033a9466e7979005900f0ad2c4646b1eb696b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_7b63a16a2acecf6f0a22ca5102cbb9b1ec534550.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.databinding-library-1.2.1_f1e5f57646397951e9619f28104a92f893f0851e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_59970d683c22e1c56a6c38c247f00ffece9f31fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-10.0.1_f0afafa5d8cd4127ab8d9689a10f6546be689f04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_0c3aebf84f0901ce2a055b6eda850c68711656bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-10.0.1_a85336d15729eb2cbbd8b89ae03ad1910c036c5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.databinding-adapters-1.2.1_6baa851d24666024b591b83649be9e551c8edc05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_b4469ba7cf38a58944c16c91ab4d2b85364488a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_10fc232d88356022b8fff81125edf2552aee3605.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="E:\Bai hoc\AND_228T37\ORDER_GIT\trunk\Source\Order\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.0_a8cb63c0a90a4eb2355846328f140640ca5160b7.jar" />
+    </item>
+
+</items>

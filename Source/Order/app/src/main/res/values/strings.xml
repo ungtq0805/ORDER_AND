@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Order System</string>
+    <string name="txt_advertisement">Welcome to Order System</string>
+    <string name="btn_form_login">Login Form</string>
+    <string name="txt_user_name">Input user name</string>
+    <string name="txt_password">Input password</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_view_register">Register</string>
+    <string name="txt_view_recovery">Password recovery</string>
+    <string name="order_title">Order</string>
+    <string name="order_total_amount">Total Amount</string>
+    <string name="order_total_order">Total Order</string>
+
+    <!--Message for form login-->
+    <string name="err_input_username">Please Input your username</string>
+    <string name="err_input_password">Please Input your password</string>
+
+    <!--Message for form main menu-->
+    <string name="txt_view_quantity">Quantity</string>
+    <string name="txt_view_table_order">Table No</string>
+    <string name="main_menu_btn_history_title">History Order</string>
+    <string name="main_menu_btn_table_title">Table Order</string>
+
+    <!--Message for form table order-->
+    <string name="table_order_btn_add_order">Add New Order</string>
+    <string name="table_order_btn_payment">Payment</string>
+    <string name="table_order_btn_cancel_all">Cancel All Order</string>
+    <string name="table_order_dialog_confirm_cancel_all_title">Confirm</string>
+    <string name="table_order_dialog_confirm_cancel_all_message">Do you want to delete all current order?</string>
+    <string name="table_order_dialog_confirm_cancel_all_ok">OK</string>
+    <string name="table_order_dialog_confirm_cancel_all_cancel">No</string>
+    <string name="table_order_msg_add_new_order">Created a new order for this table</string>
+    <string name="title_orderpayment_list">OrderPaymentItems</string>
+
+    <!--Message for form payment parent-->
+    <string name="order_payment_list_total_payment_title">Total Amount</string>
+
+    <!--Message for form master menu - food - product-->
+    <string name="master_menu_title">Master Menu</string>
+    <string name="master_menu_product_name_hint">Please Input Product Name</string>
+    <string name="master_menu_product_name_jp_hint">Please Input Product Name in Japanese</string>
+    <string name="master_menu_product_name_title">Name</string>
+    <string name="master_menu_product_name_jp_title">Name(JP)</string>
+    <string name="master_menu_product_type_name_title">Type</string>
+    <string name="master_menu_product_btn_reg">Register</string>
+    <string name="master_menu_product_price_title">Price</string>
+    <string name="master_menu_list_product_btn_add">Add New Product</string>
+    <string name="master_menu_product_btn_del">Delete</string>
+    <string name="master_menu_product_confirm_del_product">Do you want to delete this product?</string>
+
+    <!--Master menu selected product-->
+    <string name="master_foods_list_selected_product_menu_edit">Edit</string>
+    <string name="master_foods_list_selected_product_menu_delete">Delete</string>
+
+
+</resources>

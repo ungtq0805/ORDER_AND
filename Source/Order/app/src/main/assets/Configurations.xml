@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <server_name>192.168.1.7</server_name>
+    <server_port>6789</server_port>
+</resources>

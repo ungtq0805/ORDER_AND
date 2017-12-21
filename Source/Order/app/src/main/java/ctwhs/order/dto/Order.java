@@ -1,0 +1,48 @@
+/*
+ * IOC - Tema2
+ * 
+ * Stefan-Dobrin Cosmin
+ * 342C4
+ */
+package ctwhs.order.dto;
+
+import java.util.ArrayList;
+
+/**
+ * The Class Order.
+ */
+public class Order {
+	
+	/** The global id. */
+	private static int globalID=0;
+
+	/** The id. */
+	public int id;
+
+	/** The ordered products. */
+	public ArrayList<OrderProduct> products;
+	
+	/** The total price. */
+	public float totalPrice;
+	
+	/** The duration, in minutes. */
+	public int duration;
+	
+	/**
+	 * Instantiates a new order.
+	 */
+	public Order() {
+		id=globalID++;
+		products=new ArrayList<OrderProduct>();
+		totalPrice=0;
+		duration=0;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Order [id=" + id + ", products=" + products + ", totalPrice=" + totalPrice + "]";
+	}
+}
