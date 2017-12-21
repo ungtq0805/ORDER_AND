@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         loginBinding = DataBindingUtil.setContentView(this, R.layout.activity_login);
 
-        loginController = LoginController.getInstance(this);
+        loginController = LoginController.getInstance(getApplicationContext());
         loginController.onCheckDbAndCreate();
     }
 

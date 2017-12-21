@@ -1,6 +1,8 @@
 package ctwhs.order.dao;
 
 import android.content.Context;
+import android.database.SQLException;
+import android.widget.Toast;
 
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.misc.TransactionManager;
@@ -33,17 +35,34 @@ public class MstCommonDao extends DBHelper {
         if(instance == null) {
             instance = new MstCommonDao(context);
         }
+
         return instance;
     }
+
+    /**
+     * Returns the Database Access Object (DAO) for our SimpleData class. It will create it or just give the cached
+     * value.
+     */
+    public Dao<MstCommonEnt, Integer> getDao() throws SQLException, java.sql.SQLException {
+        if (mstCommonDao == null) {
+            mstCommonDao = getDao(MstCommonEnt.class);
+        }
+        return mstCommonDao;
+    }
+
+
     /**
      * Constructor
      * @param context
      */
    public MstCommonDao(Context context) {
         super(context);
+        this.context = context;
    }
 
    public void initDefault() throws java.sql.SQLException {
+       mstCommonDao = getDao();
+
        TransactionManager.callInTransaction(connectionSource,
                new Callable<Void>() {
                    public Void call() throws Exception {
@@ -64,10 +83,16 @@ public class MstCommonDao extends DBHelper {
                                null,
                                null,
                                ConstConfigs.CONST_DEFAULT_COMPANY_DEL_FLG,
-                               context.getString(R.string.mst_common_company_desc),
+                               context.getResources().getString(R.string.mst_common_company_desc),
                                CalendarUtils.getNow(),
                                CalendarUtils.getNow());
-                       mstCommonDao.create(mstCommonEnt);
+                       try {
+                           mstCommonDao.create(mstCommonEnt);
+                       } catch(Exception ex) {
+                           Toast.makeText(context, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                       }
+
+
                        return null;
                    }
                }
