@@ -5,6 +5,7 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
 import ctwhs.common.utils.ConvertUtils;
 import ctwhs.order.R;
@@ -27,6 +28,8 @@ public class LoginActivity extends AppCompatActivity {
 
         loginController = LoginController.getInstance(getApplicationContext());
         loginController.onCheckDbAndCreate();
+
+        Toast.makeText(getApplicationContext(), "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", Toast.LENGTH_LONG).show();
     }
 
     @Override

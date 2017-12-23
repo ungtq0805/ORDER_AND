@@ -54,4 +54,6 @@
 
     <!--DEFAULT VALUES-->
     <string name="mst_common_company_desc">CTWHS Software Company</string>
+    <string name="mst_common_order_increasement">ORDER ID INCREASE</string>
+    <string name="mst_common_login_default">LOGIN INFO</string>
 </resources>

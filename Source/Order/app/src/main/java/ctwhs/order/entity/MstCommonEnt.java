@@ -19,7 +19,7 @@ import java.util.Date;
 public class MstCommonEnt {
 
 	/** The COMMON NO. */
-	@DatabaseField(columnName = "COMMON_NO")
+	@DatabaseField(columnName = "COMMON_NO", id = true)
 	private String commonNo;
 
 	/** The class no. */

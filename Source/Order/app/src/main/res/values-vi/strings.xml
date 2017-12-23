@@ -54,5 +54,7 @@
 
     <!--DEFAULT VALUES-->
     <string name="mst_common_company_desc">Công ty phần mềm CTWHS</string>
+    <string name="mst_common_order_increasement">TĂNG MÃ ĐƠN HÀNG</string>
+    <string name="mst_common_login_default">Thông tin Login</string>
 
 </resources>

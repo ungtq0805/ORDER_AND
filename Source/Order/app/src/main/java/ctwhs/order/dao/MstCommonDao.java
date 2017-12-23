@@ -66,6 +66,26 @@ public class MstCommonDao extends DBHelper {
        TransactionManager.callInTransaction(connectionSource,
                new Callable<Void>() {
                    public Void call() throws Exception {
+
+                       try {
+                           //create master company info
+                           createMstCompanyInfo();
+
+                           //create master order increase
+                           createMstOrderIncrease();
+
+                           //create master login info
+                           createMstLoginInfo();
+                       } catch(Exception ex) {
+                           Toast.makeText(context, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                       }
+                       return null;
+                   }
+
+                   /**
+                    * create master company info
+                    */
+                   private void createMstCompanyInfo() {
                        MstCommonEnt mstCommonEnt = new MstCommonEnt();
                        mstCommonEnt.setValues(ConstConfigs.CONST_DEFAULT_COMPANY_COMMON_NO,
                                ConstConfigs.CONST_DEFAULT_COMPANY_CLASS_NO,
@@ -82,7 +102,7 @@ public class MstCommonDao extends DBHelper {
                                null,
                                null,
                                null,
-                               ConstConfigs.CONST_DEFAULT_COMPANY_DEL_FLG,
+                               ConstConfigs.CONST_DEFAULT_DEL_FLG,
                                context.getResources().getString(R.string.mst_common_company_desc),
                                CalendarUtils.getNow(),
                                CalendarUtils.getNow());
@@ -91,11 +111,74 @@ public class MstCommonDao extends DBHelper {
                        } catch(Exception ex) {
                            Toast.makeText(context, ex.getMessage(), Toast.LENGTH_SHORT).show();
                        }
+                   }
 
+                   /**
+                    * create master order increase
+                    */
+                   private void createMstOrderIncrease() {
+                       MstCommonEnt mstCommonEnt = new MstCommonEnt();
+                       mstCommonEnt.setValues(ConstConfigs.CONST_DEFAULT_ORDER_INCREASE_COMMON_NO,
+                               ConstConfigs.CONST_DEFAULT_ORDER_INCREASE_CLASS_NO,
+                               ConstConfigs.CONST_DEFAULT_ORDER_INCREASE_CLASS_NAME,
+                               ConstConfigs.CONST_DEFAULT_ORDER_INCREASE_DATA_1,
+                               ConstConfigs.CONST_DEFAULT_ORDER_INCREASE_DATA_2,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               ConstConfigs.CONST_DEFAULT_DEL_FLG,
+                               null,
+                               CalendarUtils.getNow(),
+                               CalendarUtils.getNow());
+                       try {
+                           mstCommonDao.create(mstCommonEnt);
+                       } catch(Exception ex) {
+                           Toast.makeText(context, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                       }
+                   }
 
-                       return null;
+                   /**
+                    * create master LOGIN INFO
+                    */
+                   private void createMstLoginInfo() {
+                       MstCommonEnt mstCommonEnt = new MstCommonEnt();
+                       mstCommonEnt.setValues(ConstConfigs.CONST_DEFAULT_LOGIN_INFO_COMMON_NO,
+                               ConstConfigs.CONST_DEFAULT_LOGIN_INFO_CLASS_NO,
+                               ConstConfigs.CONST_DEFAULT_LOGIN_INFO_CLASS_NAME,
+                               ConstConfigs.CONST_DEFAULT_LOGIN_INFO_DATA_1,
+                               ConstConfigs.CONST_DEFAULT_LOGIN_INFO_DATA_2,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               null,
+                               ConstConfigs.CONST_DEFAULT_DEL_FLG,
+                               null,
+                               CalendarUtils.getNow(),
+                               CalendarUtils.getNow());
+                       try {
+                           mstCommonDao.create(mstCommonEnt);
+                       } catch(Exception ex) {
+                           Toast.makeText(context, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                       }
                    }
                }
        );
+
+       Toast.makeText(context, "OK", Toast.LENGTH_SHORT).show();
    }
+
+
 }

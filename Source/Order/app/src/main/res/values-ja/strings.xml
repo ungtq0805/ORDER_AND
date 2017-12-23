@@ -54,4 +54,6 @@
 
     <!--DEFAULT VALUES-->
     <string name="mst_common_company_desc">CTWHSの会社ソフト</string>
+    <string name="mst_common_order_increasement">注文が増える。</string>
+    <string name="mst_common_login_default">ログイン情報</string>
 </resources>
